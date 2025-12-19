@@ -37,7 +37,7 @@
     }
 
     section {
-      max-width: 1200px;
+      max-width: 1300px;
       margin: auto;
       padding: 50px 20px;
     }
@@ -46,6 +46,46 @@
       color: #ffcc00;
       border-bottom: 2px solid #333;
       padding-bottom: 10px;
+    }
+
+    details {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+
+    summary {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffcc00;
+      cursor: pointer;
+    }
+
+    .technique {
+      margin-top: 25px;
+      border-top: 1px solid #333;
+      padding-top: 15px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .step {
+      background: #111;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .step img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 8px;
     }
 
     .historia-bloque {
@@ -58,11 +98,6 @@
       display: block;
       margin: 20px auto;
       border-radius: 12px;
-    }
-
-    .historia-bloque h3 {
-      color: #ffcc00;
-      margin-top: 30px;
     }
 
     footer {
@@ -82,112 +117,123 @@
 </header>
 
 <nav>
-  <a href="#historia">Historia del Kempo</a>
+  <a href="#tecnicas">Técnicas</a>
+  <a href="#historia">Historia</a>
 </nav>
 
+<!-- ====================== TECNICAS ====================== -->
+<section id="tecnicas">
+  <h2>Técnicas Paso a Paso por Cinturón</h2>
+
+  <!-- ===== AMARILLO ===== -->
+  <details>
+    <summary>🟡 Cinturón Amarillo (24 técnicas)</summary>
+
+    <div class="technique">
+      <h3>Delayed Sword</h3>
+      <div class="steps">
+        <div class="step">
+          <img src="https://via.placeholder.com/300x200?text=Paso+1">
+          <p>Chequeo y desplazamiento</p>
+        </div>
+        <div class="step">
+          <img src="https://via.placeholder.com/300x200?text=Paso+2">
+          <p>Control del brazo</p>
+        </div>
+        <div class="step">
+          <img src="https://via.placeholder.com/300x200?text=Paso+3">
+          <p>Espada de mano al cuello</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="technique">
+      <h3>Alternating Mace</h3>
+      <div class="steps">
+        <div class="step"><img src="https://via.placeholder.com/300x200?text=Paso+1"><p>Bloqueo</p></div>
+        <div class="step"><img src="https://via.placeholder.com/300x200?text=Paso+2"><p>Martillo</p></div>
+        <div class="step"><img src="https://via.placeholder.com/300x200?text=Paso+3"><p>Control final</p></div>
+      </div>
+    </div>
+
+    <!-- DUPLICA ESTE BLOQUE HASTA COMPLETAR LAS 24 -->
+  </details>
+
+  <!-- ===== NARANJA ===== -->
+  <details>
+    <summary>🟠 Cinturón Naranja (24 técnicas)</summary>
+    <p>Estructura lista para las 24 técnicas con imágenes paso a paso.</p>
+  </details>
+
+  <!-- ===== PURPURA ===== -->
+  <details>
+    <summary>🟣 Cinturón Púrpura (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+
+  <!-- ===== AZUL ===== -->
+  <details>
+    <summary>🔵 Cinturón Azul (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+
+  <!-- ===== VERDE ===== -->
+  <details>
+    <summary>🟢 Cinturón Verde (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+
+  <!-- ===== MARRÓN ===== -->
+  <details>
+    <summary>🟤 Cinturón Marrón (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+</section>
+
+<!-- ====================== HISTORIA ====================== -->
 <section id="historia">
   <h2>Historia y Filosofía del Kempo</h2>
 
-  <!-- ORIGEN -->
   <div class="historia-bloque">
-    <h3>1. Origen del Kempo – China</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Shaolin_Monks.jpg" alt="Monjes Shaolin">
-
+    <h3>Origen en China</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Shaolin_Monks.jpg">
     <p>
-      La palabra <strong>Kempo</strong> (también escrita Kenpo) significa
-      <strong>“Ley del Puño”</strong>. Su origen se remonta a las antiguas artes
-      marciales chinas, especialmente a los sistemas practicados en los templos
-      Shaolin. Estos sistemas combinaban golpes de puño, patadas, bloqueos,
-      control articular y filosofía espiritual.
-    </p>
-
-    <p>
-      Las artes chinas influyeron profundamente en la forma de combate de Asia
-      Oriental. Entre sus bases se encuentran las <em>18 Manos de Lo Han</em>,
-      el <em>Chuan Fa de los 5 Animales</em> y el trabajo de control conocido
-      como <em>Chin Na</em>.
+      El Kempo significa “Ley del Puño” y proviene de las artes marciales chinas,
+      especialmente del templo Shaolin. Incluye golpes, controles, filosofía y
+      disciplina espiritual.
     </p>
   </div>
 
-  <!-- JAPÓN -->
   <div class="historia-bloque">
-    <h3>2. Llegada a Japón</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Japanese_Martial_Arts.jpg" alt="Artes marciales japonesas">
-
+    <h3>Llegada a Japón</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Japanese_Martial_Arts.jpg">
     <p>
-      Con el paso del tiempo, comerciantes, monjes y viajeros llevaron estos
-      conocimientos a Japón y Okinawa. Allí, las técnicas chinas se fusionaron
-      con sistemas locales como el <strong>Jujutsu</strong>, dando origen a
-      métodos de combate más estructurados.
-    </p>
-
-    <p>
-      En Japón, el término <strong>Kenpo</strong> se utilizó para describir
-      cualquier método de combate basado en el uso del puño y técnicas
-      provenientes de China.
+      Las técnicas chinas se fusionaron con sistemas japoneses como el Jujutsu,
+      dando origen a lo que se conocería como Kenpo.
     </p>
   </div>
 
-  <!-- HAWÁI -->
   <div class="historia-bloque">
-    <h3>3. El Kempo en Hawái</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Hawaii_Honolulu.jpg" alt="Hawái">
-
+    <h3>Desarrollo en Hawái</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Hawaii_Honolulu.jpg">
     <p>
-      A finales del siglo XIX y principios del XX, el Kempo llegó a Hawái,
-      un punto clave de encuentro cultural. Allí, <strong>James Mitose</strong>
-      enseñó el <em>Kosho Ryu Kenpo</em>, un sistema familiar que integraba
-      técnicas duras y suaves.
-    </p>
-
-    <p>
-      Uno de sus alumnos más influyentes fue <strong>William K. S. Chow</strong>,
-      quien añadió mayor velocidad, circularidad y realismo al sistema,
-      adaptándolo al combate moderno.
+      James Mitose, William Chow y Ed Parker transformaron el Kenpo en un sistema
+      moderno, lógico y efectivo.
     </p>
   </div>
 
-  <!-- KENPO MODERNO -->
   <div class="historia-bloque">
-    <h3>4. Kenpo Americano y evolución moderna</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Ed_Parker_Kenpo.jpg" alt="Ed Parker Kenpo">
-
+    <h3>Meet The Action</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Martial_arts_training.jpg">
     <p>
-      El alumno más conocido de William Chow fue <strong>Ed Parker</strong>,
-      fundador del <strong>Kenpo Americano</strong>. Parker estructuró el
-      sistema de forma científica, introduciendo conceptos como:
-    </p>
-
-    <ul>
-      <li>Economía de movimiento</li>
-      <li>Ángulos de ataque y defensa</li>
-      <li>Continuidad de técnicas</li>
-      <li>Adaptación al combate real</li>
-    </ul>
-  </div>
-
-  <!-- MTA -->
-  <div class="historia-bloque">
-    <h3>5. Filosofía Meet The Action (MTA)</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Martial_arts_training.jpg" alt="Entrenamiento marcial">
-
-    <p>
-      El sistema <strong>Meet The Action (MTA)</strong> se basa en un principio
-      fundamental: <em>responder al ataque en el mismo instante en que ocurre</em>.
-      No se trata de memorizar técnicas aisladas, sino de comprender el movimiento,
-      el tiempo y la reacción.
-    </p>
-
-    <p>
-      El MTA enseña a adaptarse a cualquier situación, convirtiendo al practicante
-      en un artista marcial consciente, eficiente y preparado para el combate real.
+      El sistema MTA enseña a responder al ataque en el momento exacto,
+      priorizando economía, fluidez y adaptación real.
     </p>
   </div>
-
 </section>
 
 <footer>
-  <p>Escuela Online de Kempo · Historia, Técnica y Filosofía</p>
+  <p>Escuela Online de Kempo · Plataforma Educativa</p>
 </footer>
 
 </body>
